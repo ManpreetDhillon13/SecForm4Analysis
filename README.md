@@ -3,12 +3,15 @@
 ## Introduction
 This project implements a web scraper for SEC website. 
 For a given list of CIK, year, and month: Form4 is scrapped as XML and parsed to retrieve specific attributes.
-Following attributes are scrapped and stored in CSV format:
+Following attributes of each common stock transaction are scrapped and stored in CSV format:
 - company
-- issuer_trading_symbol
-- report_date 
-- securityTitle ( only 'Common Stock' is considered )
-- shares_traded (This represents total number of shares Acquired, assuming that there could be multiple transactions)
+- Issuer trading symbol
+- Owner Id
+- Owner name
+- Report date
+- Transaction date 
+- Security title ( only 'Common Stock' is considered )
+- Shares traded (This represents number of shares <i>Acquired<i>)
 
 ## Tools used:
 
