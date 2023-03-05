@@ -12,10 +12,11 @@ Following attributes are scrapped and stored in CSV format:
 
 ## Tools used:
 
-- Python
-- Scrapy framework
+- Python 3.9
+- Scrapy for web scraping
 - Pandas for data analysis
-- Streamlit for user interface
+- Plotly for interactive plots
+- Streamlit for building dashboard
 
 ## Instructions to Run
 1. set scraping parameters in `params.yml` file
@@ -28,4 +29,10 @@ Following attributes are scrapped and stored in CSV format:
 ## Output Screenshots
 - Scrapped data is stored in data/Form4 folder. Following are the screenshots of how data look like:
 
-- [ADD SCREENSHOTS HERE]
+![screenshot of /data/form4.csv file](https://github.com/ManpreetDhillon13/SecForm4Analysis/blob/134d0191ae384706bfc41eb6a8ef3fe360e17f70/img/form4_data.png)
+
+- Following are the screenshots of developed Streamlit dashboard:
+
+![screenshot of dashboard p1](https://github.com/ManpreetDhillon13/SecForm4Analysis/blob/134d0191ae384706bfc41eb6a8ef3fe360e17f70/img/streamlit_dashboard_1.png)
+
+![screenshot of dashboard p2](https://github.com/ManpreetDhillon13/SecForm4Analysis/blob/134d0191ae384706bfc41eb6a8ef3fe360e17f70/img/streamlit_dashboard_2.png)
