@@ -11,7 +11,7 @@ Following attributes of each common stock transaction are scrapped and stored in
 - Report date
 - Transaction date 
 - Security title ( only 'Common Stock' is considered )
-- Shares traded (This represents number of shares <i>Acquired<i>)
+- Shares traded (This represents number of shares <i>Acquired</i>)
 
 ## Tools used:
 
